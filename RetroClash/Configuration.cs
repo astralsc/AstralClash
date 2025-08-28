@@ -22,7 +22,7 @@ namespace RetroClash
 
         [JsonProperty("encryption_key")] public string EncryptionKey = "fhsd6f86f67rt8fw78fw789we78r9789wer6re";
 
-        [JsonProperty("mysql_database")] public string MySqlDatabase = "rcdb";
+        [JsonProperty("mysql_database")] public string MySqlDatabase = "acdb";
 
         [JsonProperty("mysql_password")] public string MySqlPassword = "";
 
@@ -38,7 +38,7 @@ namespace RetroClash
 
         [JsonProperty("server_port")] public int ServerPort = 9339;
 
-        [JsonProperty("update_url")] public string UpdateUrl = "https://retroclash.pw/";
+        [JsonProperty("update_url")] public string UpdateUrl = "https://github.com/astralsc/AstralClash/";
 
         public void Initialize()
         {
