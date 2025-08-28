@@ -1,2 +1,0 @@
-dotnet RetroRoyale.dll
-pause
